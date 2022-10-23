@@ -922,44 +922,38 @@
     <!-- Awards -->
 
 
-    <div class="stat" style="width:80% ; margin-top: 30px; margin: auto; display: flex;">
-      <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=gauravpatil83&show_icons=true&locale=en&layout=compact" alt="gauravpatil83" /></p>
+    <div class="container" id="stat">
+      <h2 class="sub-title">My Stats</h2>
 
-      <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=gauravpatil83&show_icons=true&locale=en" alt="gauravpatil83" /></p>
-      
-      <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=gauravpatil83&" alt="gauravpatil83" /></p>
-      
-    </div>
+      <div class="stats" style="width: 100%;">
+          <img src="https://github-readme-stats.vercel.app/api?username=gauravpatil83&theme=dark&hide_border=false&include_all_commits=true&count_private=false" alt="">
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=gauravpatil83&theme=dark&hide_border=false" alt="">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gauravpatil83&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="">
+      </div>
 
-    <script
-  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-</script>
+      <div class="calendar" style=" color: #f48312" >
+          
+          Loading the data just for you.
+      </div>
 
-<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-<link 
-  rel="stylesheet"
-  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+  </div>
+
+  <script
+src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+
+<link
+ rel="stylesheet"
+ href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
 />
 
-<!-- Prepare a container for your calendar. -->
-<div class="calendar" style="width:100% ; margin-top: 30px;">
-    <!-- Loading stuff -->
-    Loading the data just for you.
-</div>
+
 
 <script>
-    GitHubCalendar(".calendar", "gauravpatil83");
+  GitHubCalendar(".calendar", "gauravpatil83");
 
-    // or enable responsive functionality:
-    GitHubCalendar(".calendar", "gauravpatil83", { responsive: true });
-
-    // Use a proxy
-    GitHubCalendar(".calendar", "gauravpatil83", {
-       proxy (gauravpatil83) {
-         return fetch(`https://your-proxy.com/github?user=${gauravpatil83}`)
-       }
-    }).then(r => r.text())
-</script>
+  GitHubCalendar(".calendar", "gauravpatil83", { responsive: true });
+</script> 
 
 
 
