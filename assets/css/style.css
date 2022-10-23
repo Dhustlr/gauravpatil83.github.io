@@ -4,12 +4,12 @@
   --header-height: 3rem;
 
   --hue-color: 213;
-  --first-color: hsl(184deg 64% 72%);
+  --first-color: rgb(239, 228, 108);
   /* #6e57e0 */
   --first-color-second: hsla(276, 66%, 36%, 0.39);
-  --first-color-alt: hsl(192deg 64% 72%);
+  --first-color-alt: rgb(239, 228, 108);
   /* #7d6bd6 */
-  --first-color-lighter: hsl(213, 92%, 85%);
+  --first-color-lighter: rgb(239, 228, 108);
   /* #c2b6fc */
   --title-color: #edede8;
   --text-color: #edede8;
@@ -120,8 +120,8 @@
 
 /* Variables Dark Theme */
 body.dark-theme {
-  --first-color: hsl(325deg 98% 16%);
-  --first-color-alt: hsl(335deg 98% 22%);
+  --first-color: rgb(237, 91, 43);
+  --first-color-alt: rgb(237, 91, 43);
   --first-color-second: #031833;
   --title-color: #010f20;
   --text-color: #010f20;
