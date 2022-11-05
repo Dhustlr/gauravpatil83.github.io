@@ -650,7 +650,8 @@ button {
 }
 
 .portfolio_img {
-  width: 256px;
+  width: 300px;
+  height: 200px;
   border-radius: 0.5rem;
   justify-self: center;
 }
@@ -679,11 +680,11 @@ button {
 }
 
 .swiper-button-prev {
-  left: -0.5rem;
+  left: -0.3rem;
 }
 
 .swiper-button-next {
-  right: -0.5rem;
+  right: -0.3rem;
 }
 
 .swiper-horizontal>.swiper-pagination-bullets {
