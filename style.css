@@ -321,19 +321,14 @@ a {
 }
 .boxgit1 {
   display: flex;
-  justify-content: space-between; 
 
+  justify-content: space-between;
 }
 .boxgit2 {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   margin-top: 20px;
-
 }
-
-
-
-
 
 .tool {
   border: none;
@@ -912,6 +907,16 @@ a {
   .box8 > .calendar > .contrib-column {
     display: none;
   }
+
+  .boxgit {
+    min-height: auto;
+  max-height: auto;
+  }
+  .boxgit1 {
+    min-height: auto;
+  max-height: auto;
+  }
+  
 }
 
 @media screen and (min-width: 400px) and (max-width: 520px) {
