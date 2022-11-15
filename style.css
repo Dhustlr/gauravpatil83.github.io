@@ -303,6 +303,39 @@ a {
   backdrop-filter: blur(5px);
 }
 
+.boxgit {
+  width: 99%;
+  margin: auto;
+  margin-top: 40px;
+  background-color: #001c55;
+  border: 1px solid #989292;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 12px;
+
+  /* display: flex;
+  flex-wrap: wrap;
+  */
+  padding: 2rem;
+  backdrop-filter: blur(5px);
+}
+.boxgit1 {
+  display: flex;
+  justify-content: space-between; 
+
+}
+.boxgit2 {
+  
+  margin-top: 20px;
+  margin-left: 370px;
+  
+
+}
+
+
+
+
+
 .tool {
   border: none;
   border-top: 3px solid rgb(126, 133, 126);
