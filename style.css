@@ -1,4 +1,4 @@
-@font-face {
+```````@font-face {
   font-family: "Exo Space";
   src: url("./font/Exo_space.ttf");
 }
@@ -325,10 +325,9 @@ a {
 
 }
 .boxgit2 {
-  
+  display: flex;
+  justify-content: center; 
   margin-top: 20px;
-  margin-left: 370px;
-  
 
 }
 
