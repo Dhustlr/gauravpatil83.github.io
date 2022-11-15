@@ -1,923 +1,647 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <title>Gaurav's - Portfolio Website</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- 
-
-  <!-- Twitter -->
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
-  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="shortcut icon" href="assets/img/Pictures/Gaurav_Patil_WhiteGrey.jpg" type="image/x-icon" />
-  <link href="aos_2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="e7ae6f3064.js" ></script>
-  
-</head>
-<body>
-  <!-- Header -->
-  <header class="header" id="header">
-    <nav class="nav container">
-      <h2><a href="#" class="nav_logo"> Gaurav </a></h2>
-      <div class="nav_menu" id="nav-menu">
-        <ul class="nav_list grid">
-          <li class="nav_item">
-            <a href="#home" class="nav_link active-link">
-              <i class="uil uil-estate nav_icon"></i> Home
-            </a>
-          </li>
-          <li class="nav_item">
-            <a href="#about" class="nav_link">
-              <i class="uil uil-user nav_icon"></i>About
-            </a>
-          </li>
-          <li class="nav_item">
-            <a href="#skills" class="nav_link">
-              <i class="uil uil-file-alt nav_icon"></i>Skills
-            </a>
-          </li>
-          <li class="nav_item">
-            <a href="#experience" class="nav_link">
-              <i class="uil uil-briefcase-alt nav_icon"></i>Qualification
-            </a>
-          </li>
-          <!-- <li class="nav_item">
-            <a href="#events" class="nav_link">
-              <i class="uil uil-scenery nav_icon"></i>Events
-            </a>
-          </li> -->
-          <li class="nav_item">
-            <a href="#projects" class="nav_link">
-              <i class="uil uil-apps nav_icon"></i>Projects
-            </a>
-          </li>
-          <li class="nav_item">
-            <a href="#contact" class="nav_link">
-              <i class="uil uil-at nav_icon"></i></i>Contact
-            </a>
-          </li>
-          <li class="nav_item">
-            <a download="" href="assets/pdf/Gaurav_Patil.pdf" class="nav_link">
-              My Resume
-            
-            </a>
-          </li>
-        </ul>
-        <i class="uil uil-times nav_close" id="nav-close"></i>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaurav's Portfolio</title>
+    <link rel="icon" href="image/images.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/6f3f4b23f1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
       </div>
+    </div>
 
-
-
-
-
-
-      <div class="nav_btns">
-
-        <!-- Change Theme -->
-        <i class="uil uil-moon change-theme" id="theme-button"></i>
-        <div class="nav_toggle" id="nav-toggle">
-          <i class="uil uil-apps"></i>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <!-- Main -->
-  <main class="main">
-
-
-
-
-    <!-- Home -->
-
-
-    <section class="home section" id="home">
-      <div class="home_container container grid">
-        <div class="home_content grid">
-          <div class="home_social" data-aos="flip-left">
-            <a aria-label="Linkedin" href="https://www.linkedin.com/in/gauravpatil83/" class="home_social-icon"
-              target="_blank">
-              <i class="uil uil-linkedin-alt"></i>
-            </a>
-            <a aria-label="Github" href="https://github.com/gauravpatil83" class="home_social-icon" target="_blank">
-              <i class="uil uil-github-alt"></i>
-            </a>
-            <a aria-label="Twitter" href="https://twitter.com/D_hustlr" class="home_social-icon" target="_blank">
-              <i class="uil uil-twitter-alt"></i>
-            </a>
-            
-          </div>
-
-
-          <div class="home_img"  data-aos="fade-left">
-            <!-- <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink">
-              <mask id="mask0" mask-type="alpha">
-                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-              </mask>
-              <g mask="url(#mask0)">
-                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-                <image class="home_blob-img" style="height: 230px; width: 225px;" x="-16" y="-20"
-                  href="assets/img/pic2.jpg" />
-              </g>
-            </svg> -->
-            <!-- <svg width="400" height="300">
-              <rect x="0" y="0" rx="0" ry="0" width="0" height="0"
-              style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
-              <image class="home_blob-img" style="height: 300px; width:375px;  border:none;" x="" y=""
-              href="assets/img/profile/8-removebg-preview.png" />
-            </svg> -->
-
-            <!-- <img class="home_blob-img" style="height: 340px; width:175px; background-image: url(assets/img/profile/8-removebg-preview.png); background-size: contain; background-repeat: no-repeat;  border-radius: 20px; border:none;" x="" y=""
-            href="assets/Gaurav_Patil Cream.png" /> -->
-            <img  src="/assets/img/Pictures/Gaurav_Patil white.png" alt="" />
-          </div>
-          
-
-
-          <div class="home_data" data-aos="zoom-in">
-            <h1 class="home_title">Hello, I'm  Gaurav   <i class="fa-solid fa-face-smile single_skill_icon"></i></h1>
-          
-            <h3 class="home_subtitle">
-              <span class="typewriter"></span>
-            </h3>
-            <p class="home_description">
-              A tech enthusiast and self learner, who believes in the power of community.<br><br>
-              <!-- <b>Java Backend Developer</b> at
-              <b>Masai School</b> -->
-               <!-- <i class="fa-solid fa-graduation-cap"></i> -->
-            </p>
-            <a download="" href="assets/pdf/Gaurav_Patil.pdf" class="button button--flex">
-              My Resume&nbsp;&nbsp;
-              <i class="uil uil-file-download-alt button_icon"></i>
-            </a>
-          </div>
-
-
-   
-
-
-
-
-
-        </div>
-        <div class="home_scroll">
-          <a href="#about" class="home_scroll-button button--flex" data-aos="zoom-in-up" data-aos-duration="700">
-            <i class="uil uil-mouse-alt home_scroll-mouse"></i>
-            <span class="home_scroll-name">Scroll Down</span>
-            <i class="uil uil-arrow-down home_scroll-arrow"></i>
-          </a>
-        </div>
-      </div>
-
-
+    <section class="top-nav">
+      <div></div>
+      <input id="menu-toggle" type="checkbox" />
+      <label class="menu-button-container" for="menu-toggle">
+        <div class="menu-button"></div>
+      </label>
+      <ul class="menu">
+        <li><a class="tdn" href="#box0">About</a></li>
+        <li><a class="tdn" href="#box2">Tech Stack</a></li>
+        <li><a class="tdn" href="#box4">My Skills</a></li>
+        <li><a class="tdn" href="#box3">Project</a></li>
+        <li><a class="tdn" href="#box5">Contact</a></li>
+      </ul>
     </section>
 
-
-
-
-
-    <!-- About -->
-    <section class="about section" id="about">
-      <h2 class="section_title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">About Me <i class="uil uil-user"></i> </h2> 
-      <span class="section_subtitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom">My introduction</span>
-      <div class="about_container container grid">
-        <img src="assets/img/Pictures/Gaurav_Patil white.png" class="about_img" alt="Image" data-aos="zoom-in" />
-        <div class="about_data" data-aos="fade-right">
-          <p class="about_description">
-            I'm currently pursuing <b>Java backend Developer <i class="fa-brands fa-java single_skill_icon"></i></b> from <b>Masai School,
-              </b>.<br><br>
-             
-            I actively look for opportunities to develop my skillset and use it to solve challenging real-world
-            problems.<br>
-            Expanding my network, teaching, and building a collaborative environment to grow together, are among the few
-            things that spur my interest.
-          </p>
-          <div class="about_button">
-            <a href="#contact" class="button button--flex">
-              Get in touch<i class="uil uil-message"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Skills -->
-    <section class="skills section" id="skills">
-      <h1 class="section_title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Skills</h1>
-      <span class="section_subtitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom">My Technical
-        Skills</span>
-      <div class="skills_container container grid">
-        <!-- Skill Set 1 -->
-        <div class="skill skills_content" data-aos="fade-up" data-aos-duration="500">
-          <div class="skills_header">
-            <i class="uil uil-arrow skills_icon"></i>
-            <div>
-              <h1 class="skills_title">Languages and Skills</h1>
-              <span class="skills_subtitle">Skills I have picked up over the years</span>
-            </div>
-            <i class="uil uil-angle-down skills_arrow"></i>
-          </div>
-          <div class="skills_list grid">
-
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon">
-                  <i class="fas fa-database"></i>
-                </span>
-                <h3 class="skills_name">SQL</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon">
-                  <i class="fab fa-java"></i>
-                </span>
-                <h3 class="skills_name">Java</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon">
-                  <i class="fa-brands fa-aws"></i>
-                </span>
-                <h3 class="skills_name">AWS</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon">
-                  <i class="fab fa-html5"></i>
-                </span>
-                <h3 class="skills_name">HTML</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon">
-                  <i class="fab fa-css3-alt"></i>
-                </span>
-                <h3 class="skills_name">CSS</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon">
-                  <i class="fab fa-js"></i>
-                </span>
-                <h3 class="skills_name">JavaScript</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon">
-                  <i class="uil uil-brackets-curly"></i>
-                </span>
-                <h3 class="skills_name">Springboot</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon">
-                  <i class="uil uil-database"></i>
-                </span>
-                <h3 class="skills_name">DSA</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon">
-                  <i class="uil uil-comment"></i>
-                </span>
-                <h3 class="skills_name">Communication Skills</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-          </div>
-        </div>
-        <!-- Skill Set 3 -->
-        <div class="skill skills_content" data-aos="fade-up" data-aos-duration="500">
-          <div class="skills_header">
-            <i class="uil uil-wrench skills_icon"></i>
-            <div>
-              <h1 class="skills_title">Tools</h1>
-              <span class="skills_subtitle">Tools I know and use on a daily basis</span>
-            </div>
-            <i class="uil uil-angle-down skills_arrow"></i>
-          </div>
-          <div class="skills_list grid">
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon">
-                  <i class="fab fa-git-alt"></i>
-                </span>
-                <h3 class="skills_name">Git</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon">
-                  <i class="fab fa-github"></i>
-                </span>
-                <h3 class="skills_name">GitHub</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-  
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon">
-                  <i class="fas fa-code"></i>
-                </span>
-                <h3 class="skills_name">VS Code</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon">
-                  <i class="uil uil-slack"></i>
-                </span>
-                <h3 class="skills_name">Slack</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon">
-                  <i class="uil uil-video"></i>
-                </span>
-                <h3 class="skills_name">Zoom</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-
-            <div class="skills_data">
-              <div class="skills_titles">
-                <span class="single_skill_icon">
-                  <i class="fa-solid fa-code"></i>
-                </span>
-                <h3 class="skills_name">Spring Tool</h3>
-              </div>
-              <div class="skills_bar"></div>
-            </div>
-          
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Qualifications -->
-    <section class="qualification section" id="experience">
-      <h2 class="section_title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Qualifications</h2>
-      <span class="section_subtitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom">My Education &
-       Achievement</span>
-      <div class="qualification_container container">
-        <div class="qualification_tabs">
-          <div class="qualification_button button-flex" data-aos="zoom-in" data-aos-duration="200" id="educationheader">
-            <i class="uil uil-graduation-cap qualification_icon"></i>Education
-          </div>
-          <div class="qualification_button button-flex" data-aos="zoom-in" data-aos-duration="200" id="workheader">
-            <i class="uil uil-briefcase-alt qualification_icon"></i>Work
-          </div>
-          <div class="qualification_button button-flex" data-aos="zoom-in" data-aos-duration="200"
-            id="volunteeringheader">
-            <!-- <i class="uil uil-user qualification_icon"></i>Certificate -->
-            <!-- <i class="uil uil-file qualification_icon"></i>Certificates -->
-          </div>
-        </div>
-        <div class="qualification_sections">
-          <!-- Educational Qualification -->
-          <div class="qualification_content qualification_active" data-content id="education">
-            <div class="qualification_data">
-              <div data-aos="fade-right">
-                <h3 class="qualification_title">Java Backend Developer</h3>
-                <span class="qualification_subtitle">Masai School</span>
-                <div class="qualification_calendar">
-                  <i class="uil uil-calendar-alt"></i>
-                  2022 - Present
-                </div>
-              </div>
-              <div>
-                <span class="qualification_circle" data-aos="zoom-in"></span>
-                <span class="qualification_line"></span>
-              </div>
-            </div>
-            <div class="qualification_data">
-              <div></div>
-              <div>
-                <span class="qualification_circle" data-aos="zoom-in"></span>
-                <span class="qualification_line"></span>
-              </div>
-              <div data-aos="fade-left">
-                <h3 class="qualification_title">Professional Graduation in Mechanical Engineering</h3>
-                <span class="qualification_subtitle">IIMT, Ahmedabad</span>
-                <div class="qualification_calendar">
-                  <i class="uil uil-calendar-alt"></i>
-                  2021 - 2023
-                </div>
-              </div>
-            </div>
-            <div class="qualification_data">
-              <div data-aos="fade-right">
-                <h3 class="qualification_title">Diploma in Mechanical</h3>
-                <span class="qualification_subtitle">ASSP, Jalgaon</span>
-                <div class="qualification_calendar">
-                  <i class="uil uil-calendar-alt"></i>
-                  2011 - 2014
-                </div>
-              </div>
-              <div>
-                <span class="qualification_circle" data-aos="zoom-in"></span>
-                <span class="qualification_line"></span>
-              </div>
-            </div>
-            <div class="qualification_data">
-              <div></div>
-              <div>
-                <span class="qualification_circle" data-aos="zoom-in"></span>
-                <span class="qualification_line"></span>
-              </div>
-              <div data-aos="fade-left">
-                <h3 class="qualification_title">SSC</h3>
-                <span class="qualification_subtitle">ST. Aloysius High School, Bhusawal</span>
-                <div class="qualification_calendar">
-                  <i class="uil uil-calendar-alt"></i>
-                  2010 - 2011
-                </div>
-              </div>
-            </div>
-           
-          </div>
-          <!-- Work Experience -->
-          <div class="qualification_content qualification-inactive" data-content id="work">
-            <div class="qualification_data">
-              <div>
-                <h3 class="qualification_title">Altrad Cape</h3>
-                <span class="qualification_subtitle">Abu Dhabi, UAE</span>
-                <div class="qualification_calendar">
-                  <b>PTW Coordinator</b><br>
-                  <i class="uil uil-calendar-alt"></i>
-                  Sept 2021 - Dec 2021
-                </div>
-              </div>
-              <div>
-                <span class="qualification_circle" data-aos="zoom-in"></span>
-                <span class="qualification_line"></span>
-              </div>
-            </div>
-            <div class="qualification_data">
-              <div></div>
-              <div>
-                <span class="qualification_circle" data-aos="zoom-in"></span>
-                <span class="qualification_line"></span>
-              </div>
-              <div>
-                <h3 class="qualification_title">Descon Engineering</h3>
-                <span class="qualification_subtitle">Abu Dhabi, UAE</span>
-                <div class="qualification_calendar">
-                  <b>PTW Coordinator</b><br>
-                  <i class="uil uil-calendar-alt"></i>
-                  Feb 2021 - Sept 2021
-                </div>
-              </div>
-            </div>
-            <div class="qualification_data">
-              <div>
-                <h3 class="qualification_title">Reliance Industries Ltd</h3>
-                <span class="qualification_subtitle">Vadodara, Gujarat</span>
-                <div class="qualification_calendar">
-                  <b>Field Executive</b><br>
-                  <i class="uil uil-calendar-alt"></i>
-                    Jan 2019 - Oct 2020
-                </div>
-              </div>
-              <div>
-                <span class="qualification_circle" data-aos="zoom-in"></span>
-                <span class="qualification_line"></span>
-              </div>
-            </div>
-            
-            <div class="qualification_data">
-              <div></div>
-              <div>
-                <span class="qualification_circle" data-aos="zoom-in"></span>
-                <span class="qualification_line"></span>
-              </div>
-              <div>
-                <h3 class="qualification_title">Hykon India Ltd</h3>
-                <span class="qualification_subtitle">Pune, Maharashtra</span>
-                <div class="qualification_calendar">
-                  <b>Production Supervisor</b><br>
-                  <i class="uil uil-calendar-alt"></i>
-                  Sept 2017 - Dec 2018
-                </div>
-              </div>
-            </div>
-            <div class="qualification_data">
-              <div>
-                <h3 class="qualification_title">Suzlon Energy Ltd</h3>
-                <span class="qualification_subtitle">Dhule, Maharashtra</span>
-                <div class="qualification_calendar">
-                  <b>Junior Engineer</b><br>
-                  <i class="uil uil-calendar-alt"></i>
-                  Sept 2015 - Aug 2017
-                </div>
-              </div>
-              <div>
-                <span class="qualification_circle" data-aos="zoom-in"></span>
-                <span class="qualification_line"></span>
-              </div>
-            </div>
-            <div class="qualification_data">
-              <div></div>
-          
-            </div>
-          </div>
-          
-
-          <!-- certificates -->
-          <div class="qualification_content qualification_inactive" data-content id="volunteering">
-          
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--Events-->
-
-    
-    <section class="portfolio section" id="projects">
-      <h2 class="section_title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Projects</h2>
-      <span class="section_subtitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom">My works</span>
-      <div class="portfolio_container container swiper-container swiper mySwiper">
-        
-        <div class="swiper-wrapper">
-          
-          <!-- Project 1 -->
-          <div class="portfolio_content grid swiper-slide">
-            <img class="portfolio_img" data-aos="fade-right" src="assets/img/Project_images/Yoox Landing.png" alt="Yoox Landing">
-            <div class="portfolio_data">
-              <h3 class="portfolio_title" data-aos="fade-left">
-                Yoox.com Clone
-              </h3>
-              <p class="portfolio_description" data-aos="fade-left">
-                <b>2022</b><br>
-               Collaborative one week project of 4 members<br>
-               <b>Responsibility:-</b>
-               <br>
-               <!-- <b>Lead Team</b><br> -->
-               Design and Art Landing page and Design and Art page.
-              </p>
-              <br>
-              <b>Tech Stack</b>
-              <br>
-              <span class="single_skill_icon">
-                <i class="fab fa-html5"></i>
-                <i class="fa-brands fa-css3-alt"></i>
-                <i class="fa-brands fa-js"></i>
-              </span>
-            <br>
-              <a href="https://github.com/RiteshAravindra/ProjectYoox" class="button button-flex button-small portfolio_button"
-                data-aos="zoom-in" data-aos-duration="300" target="_blank">
-                Github
-                <i class="uil uil-github-alt button_icon"></i>
-              </a>
-
-              <a href="https://splendorous-jalebi-79442d.netlify.app" class="button button-flex button-small portfolio_button"
-                data-aos="zoom-in" data-aos-duration="300" target="_blank">
-                Live
-                <i class="uil uil-external-link-alt button_icon"></i>
-              </a>
-            </div>
-          </div>
-          <div class="portfolio_content grid swiper-slide">
-            <img class="portfolio_img" data-aos="fade-right" src="assets/img/Project_images/GetH_why.png"
-              alt="Get Harvest">
-            <div class="portfolio_data">
-              <h3 class="portfolio_title" data-aos="fade-left">
-                Get Harvest Clone
-              </h3>
-              <p class="portfolio_description" data-aos="fade-left">
-                <b>2022</b><br>
-                Collaborative one week project of 4 members<br>
-                <b>Responsibility:-</b>
-                 <br>
-                 Why Harvest page, Features Page, Expenses Page,
-                 and Invoice Page.
-              </p>
-              <br>
-              <b>Tech Stack</b>
-              <br>
-              <span class="single_skill_icon">
-                <i class="fab fa-html5"></i>
-                <i class="fa-brands fa-css3-alt"></i>
-                <i class="fa-brands fa-js"></i>
-              </span>
-            <br>
-              <a href="https://github.com/Faizankhan99/resonant-run-2352" class="button button-flex button-small portfolio_button"
-                data-aos="zoom-in" data-aos-duration="300" target="_blank">
-                Github
-                <i class="uil uil-github-alt button_icon"></i>
-              </a>
-              <a href="https://guileless-paprenjak-6a578e.netlify.app" class="button button-flex button-small portfolio_button"
-              data-aos="zoom-in" data-aos-duration="300" target="_blank">
-              Live
-              <i class="uil uil-external-link-alt button_icon"></i>
-            </a>
-            </div>
-          </div>
-          <!-- Star War -->
-          <div class="portfolio_content grid swiper-slide">
-            <img class="portfolio_img" data-aos="fade-right"
-              src="assets/img/Project_images/Star War.png" alt="">
-            <div class="portfolio_data">
-              <h3 class="portfolio_title" data-aos="fade-left">
-                Star wars name search
-              </h3>
-              <p class="portfolio_description" data-aos="fade-left">
-                <b>2022</b><br>
-               Here you can search Star Wars character using name and see their details
-              </p>
-              <br>
-                <b>Tech Stack</b>
-                <br>
-                <span class="single_skill_icon">
-                  <i class="fab fa-html5"></i>
-                  <i class="fa-brands fa-css3-alt"></i>
-                  <i class="fa-brands fa-js"></i>
-                </span>
-              <br>
-              <a href="https://github.com/gauravpatil83/Star-Wars" class="button button-flex button-small portfolio_button"
-              data-aos="zoom-in" data-aos-duration="300" target="_blank">
-              Github
-              <i class="uil uil-github-alt button_icon"></i>
-            </a>
-            <a href="https://idyllic-starlight-4f7075.netlify.app" class="button button-flex button-small portfolio_button"
-                data-aos="zoom-in" data-aos-duration="300" target="_blank">
-               Live
-               <i class="uil uil-external-link-alt button_icon"></i>
-              </a>
-            </div>
-          </div>
-
-          <!-- Youtube -->
-          <div class="portfolio_content grid swiper-slide">
-            <img class="portfolio_img" data-aos="fade-right"
-              src="assets/img/Project_images/Youtube.png" alt="">
-            <div class="portfolio_data">
-              <h3 class="portfolio_title" data-aos="fade-left">
-                Youtube clone
-              </h3>
-              <p class="portfolio_description" data-aos="fade-left">
-                <b>2022</b><br>
-               In this you can watch some videos and also you can sort them by name.
-              </p>
-              <br>
-                <b>Tech Stack</b>
-                <br>
-                <span class="single_skill_icon">
-                  <i class="fab fa-html5"></i>
-                  <i class="fa-brands fa-css3-alt"></i>
-                  <i class="fa-brands fa-js"></i>
-                </span>
-              <br>
-              <a href="https://github.com/gauravpatil83/Youtube" class="button button-flex button-small portfolio_button"
-              data-aos="zoom-in" data-aos-duration="300" target="_blank">
-              Github
-              <i class="uil uil-github-alt button_icon"></i>
-            </a>
-            <a href="https://gleeful-mooncake-b46e52.netlify.app" class="button button-flex button-small portfolio_button"
-                data-aos="zoom-in" data-aos-duration="300" target="_blank">
-               Live
-               <i class="uil uil-external-link-alt button_icon"></i>
-              </a>
-            </div>
-          </div>
-
-           <!-- Hotstar -->
-           <div class="portfolio_content grid swiper-slide">
-            <img class="portfolio_img" data-aos="fade-right"
-              src="assets/img/Project_images/Hotstar.png" alt="">
-            <div class="portfolio_data">
-              <h3 class="portfolio_title" data-aos="fade-left">
-                Youtube clone
-              </h3>
-              <p class="portfolio_description" data-aos="fade-left">
-                <b>2022</b><br>
-                Here you can see slideshow of videos also you can search movies in search bar.
-              </p>
-              <br>
-                <b>Tech Stack</b>
-                <br>
-                <span class="single_skill_icon">
-                  <i class="fab fa-html5"></i>
-                  <i class="fa-brands fa-css3-alt"></i>
-                  <i class="fa-brands fa-js"></i>
-                </span>
-              <br>
-              <a href="https://github.com/gauravpatil83/HotStar" class="button button-flex button-small portfolio_button"
-              data-aos="zoom-in" data-aos-duration="300" target="_blank">
-              Github
-              <i class="uil uil-github-alt button_icon"></i>
-            </a>
-            <a href="https://reliable-heliotrope-14bc14.netlify.app/" class="button button-flex button-small portfolio_button"
-                data-aos="zoom-in" data-aos-duration="300" target="_blank">
-               Live
-               <i class="uil uil-external-link-alt button_icon"></i>
-              </a>
-            </div>
-          </div>
-
-        </div>
-        <!-- Arrows -->
-        <div class="swiper-button-next">
-          <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-        </div>
-        <div class="swiper-button-prev">
-          <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-        </div>
-        <!-- Pagination -->
-        <div class="swiper-pagination"></div>
-      </div>
-    </section>
-    <!-- Awards -->
-
-
-    <div class="container" id="stat">
-      <h2 class="sub-title">My Stats</h2>
-
-      <div class="stats" style="width: 100%;">
-          <img src="https://github-readme-stats.vercel.app/api?username=gauravpatil83&theme=dark&hide_border=false&include_all_commits=true&count_private=false" alt="">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=gauravpatil83&theme=dark&hide_border=false" alt="">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gauravpatil83&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="">
+    <div class="box1" id="box1">
+      <div class="box10">
+        <span style="--i: 1"><h1>H</h1></span>
+        <span style="--i: 2"><h1>i</h1></span>
+        <span style="--i: 3">&nbsp;</span>
+        <span style="--i: 4"><h1>T</h1></span>
+        <span style="--i: 5"><h1>h</h1></span>
+        <span style="--i: 6"><h1>e</h1></span>
+        <span style="--i: 7"><h1>r</h1></span>
+        <span style="--i: 8"><h1>e</h1></span>
+        <span style="--i: 3"><h1>!</h1></span>
+        <span style="--i: 10">&nbsp;</span>
+        <span style="--i: 11; color: #f55612"><h1>G</h1></span>
+        <span style="--i: 12; color: #f55612"><h1>A</h1></span>
+        <span style="--i: 13; color: #f55612"><h1>U</h1></span>
+        <span style="--i: 15; color: #f55612"><h1>R</h1></span>
+        <span style="--i: 16; color: #f55612"><h1>A</h1></span>
+        <span style="--i: 17; color: #f55612"><h1>V</h1></span>
       </div>
 
-      <div class="calendar" style=" color: #f48312" >
-          
-          Loading the data just for you.
-      </div>
+      <div class="box11">
+        <div class="box111">
+          <h2 class="wlcm_note">Welcome to my portfolio!</h2>
 
-  </div>
+          <h2 class="some_about">
+            I am a passionate
+            <span style="color: #f55612"> Full Stack Web Developer </span>who
+            focus on writing clean and user friendly applications
+          </h2>
 
-  <script
-src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
-></script>
-
-<link
- rel="stylesheet"
- href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-/>
-
-
-
-<script>
-  GitHubCalendar(".calendar", "gauravpatil83");
-
-  GitHubCalendar(".calendar", "gauravpatil83", { responsive: true });
-</script> 
-
-
-
-   
-    <!-- Contact Me -->
-    <section class="contact section" id="contact">
-      <h1 class="section_title" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Contact Me</h1>
-      <span class="section_subtitle" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-        Want to connect? My inbox is always open!
-      </span>
-      <div class="contact_container container grid">
-        <div>
-          <a href="mailto:patilgc83@gmail.com" target="_blank">
-            <div class="contact_info">
-              <i class="uil uil-envelope-alt contact_icon"></i>
-              <div>
-                <h3 class="contact_title">Email</h3>
-                <span class="contact_subtitle">patilgc83@gmail.com</span>
-              </div>
-            </div>
-          </a>
-          
-          <a href="https://twitter.com/D_hustlr" target="_blank">
-            <div class="contact_info">
-              <i class="uil uil-twitter-alt contact_icon"></i>
-              <div>
-                <h3 class="contact_title">Twitter</h3>
-                <span class="contact_subtitle">@D_hustlr</span>
-              </div>
-            </div>
-          </a>
-          <a href="https://goo.gl/maps/pF8k4ijQJGsY3EAC8" target="_blank">
-            <div class="contact_info">
-              <i class="uil uil-location-point contact_icon"></i>
-              <div>
-                <h3 class="contact_title">Location</h3>
-                <span class="contact_subtitle">Maharashtra, India</span>
-              </div>
-            </div>
-          </a>
-        </div>
-        <form  class="contact_form grid" id="contact-form" method="POST">
-          <div id="alert" class="alert_style"></div>
-          <div class="contact_inputs grid">
-            <div class="contact_content">
-              <label class="contact_label">Name
-                <input type="text" name="name" class="contact_input" id="name" required>
-              </label>
-            </div>
-            <div class="contact_content">
-              <label for="email" class="contact_label">Email
-                <input type="email" name="email" class="contact_input" id="email" required>
-              </label>
-            </div>
-          </div>
-          <div class="contact_content">
-            <label for="subject" class="contact_label">Subject
-              <input type="text" name="subject" class="contact_input" id="subject" required>
-            </label>
-          </div>
-          <div class="contact_content">
-            <label for="message" class="contact_label">Message
-              <textarea name="message" id="" cols="0" rows="7" class="contact_input message" id="message"
-                required></textarea>
-            </label>
-          </div>
-          <div>
-            <button type="submit" class="button button-flex">
-              Send Message
-              <i class="uil uil-message button_icon"></i>
+          <div class="btn_div">
+            <button class="rbtn">
+              <a download="" href="pdf/Gaurav_Patil.pdf">Resume</a>
             </button>
           </div>
-        </form>
-      </div>
-    </section>
-  </main>
-  <!-- Footer -->
-  <footer class="footer" data-aos="fade-up">
-    <div class="footer_bg">
-      <div class="footer_container container grid">
-        <div>
-          <h1 class="footer_title">Gaurav </h1>
-         
-          <span class="footer_subtitle"><b>Student at Masai School</b><br>Maharashtra, India</span>
         </div>
-        <ul class="footer_links">
-          <li>
-            <a href="#about" class="footer_link">About</a>
-          </li>
-          <li>
-            <a href="#projects" class="footer_link">Projects</a>
-          </li>
-          <li>
-            <a href="#skills" class="footer_link">Skills</a>
-          </li>
-          <li>
-            <a href="#experience" class="footer_link">Experience</a>
-          </li>
-        </ul>
-        <div class="footer_socials">
-          <a aria-label="Linkedin" href="https://www.linkedin.com/in/gauravpatil83/" class="footer_social"
-            target="_blank">
-            <i class="uil uil-linkedin-alt"></i>
-          </a>
-          <a aria-label="Github" href="https://github.com/gauravpatil83" class="footer_social" target="_blank">
-            <i class="uil uil-github-alt"></i>
-          </a>
-          <!-- <a aria-label="Twitter" href="https://twitter.com/D_huslr?t=KbBGtriUaseAR867qPEWMg&s=09" class="footer_social" target="_blank">
-            <i class="uil uil-twitter-alt"></i>
-          </a> -->
-          
-          </a>
+
+        <div class="box112">
+          <img src="image/Coder1.jpg" alt="" />
         </div>
       </div>
-      <p class="footer_copy" style="color: var(--body-color);">Gaurav - 2022<br>@Gaurav
-      </p>
     </div>
-  </footer>
-  <!-- Scroll Top -->
-  <a href="#" aria-label="scroll-up" class="scrollup" id="scroll-up">
-    <i class="uil uil-arrow-up scrollup_icon"></i>
-  </a>
-  <!-- Swiper JS -->
-  <script src="assets/js/swiper-bundle.min.js"></script>
-  <script src="aos_2.3.1/dist/aos.js"></script>
-  <script src="assets/js/main.js"></script>
-</body>
+
+    <div class="box0 reveal" id="box0">
+      <!-- <div class="box01">
+            <h1 class="sub-title">About Me</h1>
+        </div> -->
+
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="image/Gaurav_Patil white.png" alt="" />
+            </div>
+            <div class="about-col-2">
+              <p>
+                Java Backend Developer with the ability to learn and collaborate
+                in Rapidly changing environments and compositions. Worked
+                intensively through 1200+ hours of Bootcamp Structure learning
+                of Java, SpringBoot, Hibernate, AWS, JavaScript, HTML5 & CSS3.
+              </p>
+              <div class="tab-title">
+                <p class="tab-links active-link" onclick="opentab('skills')">
+                  Technical Skills
+                </p>
+                <p class="tab-links" onclick="opentab('soft skills')">
+                  Soft Skills
+                </p>
+                <p class="tab-links" onclick="opentab('education')">
+                  Education
+                </p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul class="aboutSkill">
+                  <li>
+                    <span>Java Backend Development</span><br />
+                    <span class="co">Java </span
+                    ><span class="co">| Spring </span
+                    ><span class="co">| Hibernate </span
+                    ><span class="co">| SQL </span><span class="co">| AWS </span
+                    ><span class="co">| GIT</span>
+                  </li>
+                  <li>
+                    <span>Frontend Development</span><br /><span class="co"
+                      >HTML5 </span
+                    ><span class="co">| CSS3 </span
+                    ><span class="co">| JavaScript</span>
+                  </li>
+                  <li>
+                    <span>Data Structure & Algorithms</span><br /><span
+                      class="co"
+                      >Arrays/Strings </span
+                    ><span class="co">| Stacks/Queues </span
+                    ><span class="co">| Linked List </span
+                    ><span class="co">| Recursion</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="soft skills">
+                <ul class="aboutSkill">
+                  <li>
+                    <span>Self-learning</span><br />
+                    <span class="co"
+                      >Having the skill of self-learning can greatly benefit a
+                      developer at their workplace.</span
+                    >
+                  </li>
+                  <li>
+                    <span>Time management</span><br /><span class="co"
+                      >Being time-conscious can help a developer meet deadlines
+                      and give exact estimates.</span
+                    >
+                  </li>
+                  <li>
+                    <span>Problem-solving skills</span><br /><span class="co"
+                      >It's about designing operating systems, maintaining
+                      software systems, or fixing bugs.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul class="aboutSkill">
+                  <li>
+                    <span>Full Stack Web Development</span
+                    ><span class="co"
+                      ><br />Masai School, Bengaluru<br />
+                      2022 - Present</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >Professional Graduation in Mechanical Engineering</span
+                    ><span class="co"
+                      ><br />IIMT, Ahmedabad<br />
+                      2021 - 2023</span
+                    >
+                  </li>
+                  <li>
+                    <span>Diploma in Mechanical</span
+                    ><span class="co"
+                      ><br />ASSP Polytechnic, Jalgaon<br />
+                      2011 - 2014</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box2 reveal" id="box2">
+      <div class="box21">
+        <h1>TECH-STACK</h1>
+      </div>
+
+      <div class="box22">
+        <div class="tool" style="--i: 1">
+          <div>
+            <img src="logo/java_logo.png" alt="" />
+          </div>
+          <div>JAVA</div>
+        </div>
+
+        <div class="tool" style="--i: 2">
+          <div>
+            <img src="logo/spring_logo.png" alt="" />
+          </div>
+          <div>Spring Boot</div>
+        </div>
+
+        <div class="tool" style="--i: 3">
+          <div>
+            <img src="logo/sql_logo.png" alt="" />
+          </div>
+          <div>SQL</div>
+        </div>
+
+        <div class="tool" style="--i: 4">
+          <div>
+            <img src="logo/aws_logo.png" alt="" />
+          </div>
+          <div>AWS</div>
+        </div>
+
+        <div class="tool" style="--i: 5">
+          <div>
+            <img src="logo/hibernate_logo.png" alt="" />
+          </div>
+          <div>Hibernate</div>
+        </div>
+
+        <div class="tool" style="--i: 6">
+          <div>
+            <img src="logo/eclipse_logo.png" alt="" />
+          </div>
+          <div>Eclipse</div>
+        </div>
+
+        <div class="tool" style="--i: 7">
+          <div>
+            <img src="logo/Git_logo.png" alt="" />
+          </div>
+          <div>Git</div>
+        </div>
+
+        <div class="tool" style="--i: 8">
+          <div>
+            <img src="logo/html_logo.png" alt="" />
+          </div>
+          <div>HTML</div>
+        </div>
+
+        <div class="tool" style="--i: 9">
+          <div>
+            <img src="logo/css_logo.webp" alt="" />
+          </div>
+          <div>CSS</div>
+        </div>
+
+        <div class="tool" style="--i: 10">
+          <div>
+            <img src="logo/js_logo2.jpg" alt="" />
+          </div>
+          <div>Java Script</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box4 reveal" id="box4">
+      <div class="container">
+        <div class="box41">
+          <h1>My Skills</h1>
+        </div>
+        <div class="skills-list">
+          <div>
+            <i class="fa-brands fa-java"></i>
+            <h2>Java Backend Development</h2>
+            <p>
+              Java is capable of handling more robust programming tasks than its
+              front end counterpart. Java is an incredibly useful skill for back
+              end developers;it's a high-performance language that supports
+              object-oriented programming and can run in any system that
+              supports a Java Virtual machine.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Frontend Development</h2>
+            <p>
+              Front-End Developer is responsible for developing new user-facing
+              features, determining the structure and design of web pages,
+              building reusable codes, optimizing page loading times, and using
+              a variety of markup languages to create the web pages using HTML5
+              / CSS & JavaScript.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-cubes"></i>
+            <h2>Data Structure & Algorithms</h2>
+            <p>
+              A data structure is a named location that can be used to store and
+              organize data. And, an algorithm is a collection of steps to solve
+              a particular problem.Learning data structures and algorithms allow
+              us to write efficient and optimized computer programs.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-face-smile"></i>
+            <h2>Communication Effectiveness</h2>
+            <p>
+              Effective communication is the process of exchanging ideas,
+              thoughts, opinions, knowledge, and data so that the message is
+              received and understood with clarity and purpose. When we
+              communicate effectively, both the sender and receiver feel
+              satisfied.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box3 reveal" id="box3">
+      <div class="box31">
+        <h1>PROJECTS</h1>
+      </div>
+      <div class="box32">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <figure class="swing">
+                <img class="proimg" src="image/Yoox Design art.png" alt="" />
+              </figure>
+            </div>
+            <div class="flip-card-back">
+              <h1>Yoox Clone</h1>
+              <p>
+                YOOX is the world’s leading online store for fashion, design,
+                and art that lasts a lifetime and beyond.
+              </p>
+              <p>Tech stack :- HTML | CSS | JavaScript</p>
+              <div class="icons">
+                <a href="https://github.com/RiteshAravindra/ProjectYoox"
+                  ><i class="fa-brands fa-github"></i></a
+                ><a href="https://splendorous-jalebi-79442d.netlify.app"
+                  ><i class="fa-solid fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <figure class="swing">
+                <img class="proimg" src="image/GetHarvest Landing.png" alt="" />
+              </figure>
+            </div>
+            <div class="flip-card-back">
+              <h1>Get Harvest Clone</h1>
+              <p>
+                Get Harvest is a simple time tracking and fast invoicing
+                solution built in 2006. This was a Collaborative project of 5
+                members for a week.
+              </p>
+              <p>Tech stack :- HTML | CSS | JavaScript</p>
+              <div class="icons">
+                <a href="https://github.com/Faizankhan99/resonant-run-2352"
+                  ><i class="fa-brands fa-github"></i></a
+                ><a href="https://guileless-paprenjak-6a578e.netlify.app"
+                  ><i class="fa-solid fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <figure class="swing">
+                <img class="proimg" src="image/Star War.png" alt="" />
+              </figure>
+            </div>
+            <div class="flip-card-back">
+              <h1>Star Wars Characters search</h1>
+              <p>
+                Star Wars Characters search enables you to search Star Wars
+                characters using their name and see their details.
+              </p>
+              <p>Tech stack :- HTML | CSS | JavaScript</p>
+              <div class="icons">
+                <a href="https://github.com/gauravpatil83/Star-Wars"
+                  ><i class="fa-brands fa-github"></i></a
+                ><a href="https://idyllic-starlight-4f7075.netlify.app"
+                  ><i class="fa-solid fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <figure class="swing">
+                <img class="proimg" src="image/Hotstar.png" alt="" />
+              </figure>
+            </div>
+            <div class="flip-card-back">
+              <h1>Hotstar movie search</h1>
+              <p>
+                Hotstar movie search enables you to see slideshow of movies and
+                also search movies using search bar.
+              </p>
+              <p>Tech stack :- HTML | CSS | JavaScript</p>
+              <div class="icons">
+                <a href="https://github.com/gauravpatil83/HotStar"
+                  ><i class="fa-brands fa-github"></i></a
+                ><a href="https://reliable-heliotrope-14bc14.netlify.app/"
+                  ><i class="fa-solid fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card card222">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <figure class="swing">
+                <img class="proimg" src="image/Youtube.png" alt="" />
+              </figure>
+            </div>
+            <div class="flip-card-back">
+              <h1>Youtube clone</h1>
+              <p>
+                Youtube clone enable you to watch some of the videos and also
+                sort them according to there names.
+              </p>
+              <p>Tech stack :- HTML | CSS | JavaScript</p>
+              <div class="icons">
+                <a href="https://github.com/gauravpatil83/Youtube"
+                  ><i class="fa-brands fa-github"></i></a
+                ><a href="https://gleeful-mooncake-b46e52.netlify.app"
+                  ><i class="fa-solid fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box8 reveal">
+      <div class="box31">
+        <h1>Git Status</h1>
+      </div>
+      <br />
+      <div class="calendar">
+        <!-- this is the div where your calander will apear -->
+      </div>
+    </div>
+
+    <!-- <div class="box7 reveal">
+      <div class="box71">
+        <div class="pieContainer">
+          <div class="pieBackground"></div>
+          <div id="pieSlice99_1" class="hold">
+            <div class="danny Col1"></div>
+          </div>
+          <div id="pieSlice99_2" class="hold">
+            <div class="danny Col1"></div>
+          </div>
+          <div class="stat-circle-cover">
+            <span class="stat-number">1200+</span>
+          </div>
+        </div>
+        <div class="box712">
+          <span class="bold">Hours</span> of full stack coading
+        </div>
+      </div>
+
+      <div class="box71">
+        <div class="pieContainer">
+          <div class="pieBackground"></div>
+          <div id="pieSlice99_1" class="hold">
+            <div class="danny Col2"></div>
+          </div>
+          <div id="pieSlice99_2" class="hold">
+            <div class="danny Col2"></div>
+          </div>
+          <div class="stat-circle-cover">
+            <span class="stat-number">240+</span>
+          </div>
+        </div>
+        <div class="box712"><span class="bold">Hackerrank</span> problems</div>
+      </div>
+
+      <div class="box71">
+        <div class="pieContainer">
+          <div class="pieBackground"></div>
+          <div id="pieSlice99_1" class="hold">
+            <div class="danny Col3"></div>
+          </div>
+          <div id="pieSlice99_2" class="hold">
+            <div class="danny Col3"></div>
+          </div>
+          <div class="stat-circle-cover">
+            <span class="stat-number">210+</span>
+          </div>
+        </div>
+        <div class="box712"><span class="bold">Git</span> commits</div>
+      </div>
+
+      <div class="box71">
+        <div class="pieContainer">
+          <div class="pieBackground"></div>
+          <div id="pieSlice99_1" class="hold">
+            <div class="danny Col4"></div>
+          </div>
+          <div id="pieSlice99_2" class="hold">
+            <div class="danny Col4"></div>
+          </div>
+          <div class="stat-circle-cover">
+            <span class="stat-number">20+</span>
+          </div>
+        </div>
+        <div class="box712"><span class="bold">Projects</span> Done</div>
+      </div>
+
+      <div class="box71">
+        <div class="pieContainer">
+          <div class="pieBackground"></div>
+          <div id="pieSlice99_1" class="hold">
+            <div class="danny Col5"></div>
+          </div>
+          <div id="pieSlice99_2" class="hold">
+            <div class="danny Col5"></div>
+          </div>
+          <div class="stat-circle-cover">
+            <span class="stat-number">100+</span>
+          </div>
+        </div>
+        <div class="box712"><span class="bold">Hours</span> of soft skills</div>
+      </div>
+    </div> -->
+
+    <div class="box5 reveal" id="box5">
+      <div class="box51">
+        <h1>CONTACT</h1>
+      </div>
+
+      <div class="box52">
+        <div class="box511">
+          <h1 class="box5h1">Reach Out to me!</h1>
+
+          <h3 class="box5h3">
+            DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL.
+          </h3>
+
+          <div class="box5111">
+            <p>
+              <i class="fa-solid fa-location-dot"></i> Bhusawal, Maharashtra
+            </p>
+          </div>
+          <div class="box5111">
+            <p><i class="fa-solid fa-envelope"></i> patilgc83@gmail.com</p>
+          </div>
+          <div class="box5111">
+            <p><i class="fa-solid fa-phone"></i> +91-8788986988</p>
+          </div>
+
+          <div class="box5112">
+            <div class="ico">
+              <a href="https://github.com/gauravpatil83/"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <div class="ico">
+              <a href="https://www.linkedin.com/in/gauravrajepatil/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <div class="ico">
+              <a href="mailto:patilgc83@gmail.com"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </div>
+            <div class="ico">
+              <a href="tel:+918788986988"><i class="fa-solid fa-phone"></i></a>
+            </div>
+            <div class="ico">
+              <a href="https://www.instagram.com/d_hustlr/"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+            </div>
+            <div class="ico">
+              <a href="https://wa.me/918788986988"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box512">
+          <img class="img51" src="image/Gaurav_Patil gey.png" alt="" />
+          <div class="btn_div">
+            <button class="rbtn">
+              <a download="" href="pdf/Gaurav_Patil.pdf">Resume</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box6" id="box6">
+      <p>Built With <i class="fa-sharp fa-solid fa-heart"></i> by Gaurav</p>
+      <!-- <p>© Copyright 2022, All Rights Reserved.</p> -->
+    </div>
+
+    <div>
+      <a href="#box1" class="arrup"
+        ><svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="30"
+          height="30"
+          fill="currentColor"
+          class="bi bi-arrow-up-circle-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"
+          /></svg
+      ></a>
+    </div>
+  </body>
 </html>
+<script src="script.js"></script>
+<script>
+  GitHubCalendar(".calendar", "gauravpatil83");
+  GitHubCalendar(".calendar", "gauravpatil83", { responsive: true });
+</script>
